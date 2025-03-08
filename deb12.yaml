@@ -1,8 +1,9 @@
 so: 'Debian12'
 version: '1.0'
+global_vars:
+  variable1: 'PRUEBA'
 actions:
-  create_vm:
-    service: 'createVMService'
+  - service: 'createVMService'
     method: 'create'
     params:
       vm_tags: 'debian12'
