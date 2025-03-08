@@ -14,7 +14,7 @@ actions:
       vm_disk-id: '0'
       vm_disk-discard: 'on'
       vm_disk-cache: 'directsync'
-      vm_disk-image: 'Debian-12-x86_64-GridCP-PVE_KVM-20240610.qcow2"
+      vm_disk-image: 'Debian-12-x86_64-GridCP-PVE_KVM-20240610.qcow2'
       vm_cdrom-type: 'ide'
       vm_cdrom-id: '0'
       vm_cloudinit-id: '2'
