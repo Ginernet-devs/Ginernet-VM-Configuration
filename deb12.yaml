@@ -1,0 +1,30 @@
+so: 'Debian12'
+version: '1.0'
+actions:
+  create_vm:
+    service: 'createVMService'
+    method: 'create'
+    params:
+      vm_tags: 'debian12'
+      vm_ostype: 'l26'
+      vm_onboot: true
+      vm_agent: '1'
+      vm_scsihw: 'virtio-scsi-pci'
+      vm_disk-type: 'scsi'
+      vm_disk-id: '0'
+      vm_disk-discard: 'on'
+      vm_disk-cache: 'directsync'
+      vm_disk-image: 'Debian-12-x86_64-GridCP-PVE_KVM-20240610.qcow2"
+      vm_cdrom-type: 'ide'
+      vm_cdrom-id: '0'
+      vm_cloudinit-id: '2'
+      vm_net-id: '0'
+      vm_net-model: 'virtio'
+      vm_net-firewal: '1'
+      vm_net-netid: '0'
+      vm_cpu-Type: 'x86-64-v2-AES'
+      vm_memory-ballon: '0'
+      vm_bootOrder: 'scsi0'
+    time: 6
+    
+  
