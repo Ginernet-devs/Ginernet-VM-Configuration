@@ -4,7 +4,6 @@ global_vars:
   variable1: 'PRUEBA'
 actions:
   - service: 'createVMService'
-    method: 'create'
     params:
       vm_tags: 'debian12'
       vm_ostype: 'l26'
