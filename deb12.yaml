@@ -18,7 +18,7 @@ actions:
       vm_cdrom-type: 'ide'
       vm_cdrom-id: '0'
       vm_cloudinit-id: '2'
-      vm_net-id: '0'
+      vm_net-id: 0
       vm_net-model: 'virtio'
       vm_net-firewal: '1'
       vm_net-netid: '0'
